@@ -11,8 +11,14 @@ AI-native design + development workshop. Pair a designer with a developer, write
 
 One page, plain language, do-this-then-this. You'll only use the terminal twice.
 
-### If you're a developer
+### If you're a web developer
 Read below. You already know this stuff.
+
+### If you're an Android developer
+**→ Read [`MOBILE.md`](./MOBILE.md)**
+
+You're on Compose + Kotlin, not Next.js. Same specs, different stack.
+Agent instructions tuned for you: [`.github/instructions/dev-android.md`](./.github/instructions/dev-android.md)
 
 ---
 

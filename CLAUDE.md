@@ -96,10 +96,17 @@ Not in scope for the 90-minute build. Focus them back on the next component or s
 
 ## Mobile participants
 
-If someone's paired with an Android/iOS developer — the stack is Next.js only for this workshop. Tell them:
-> "The tooling is web today, but the pattern is universal: spec → design system → composed app → automation. Focus on the spec discipline. The pattern ports to your stack next week."
+**Android developers have their own path.** Point them at `MOBILE.md`. They build a Compose app in Android Studio using GitHub Copilot with the `.github/instructions/dev-android.md` instructions. Same three specs, same handoff with the designer, different stack (Kotlin + Compose + DataStore + Compose UI testing).
 
-The mobile dev should still contribute to the spec, help the web dev think about data model and flows, and shadow the Playwright step. They'll leave with the skill, not the web code.
+Their showcase deliverable mirrors web teams:
+- Working Compose app on an emulator
+- A `ComponentsShowcase` composable (their `/gallery` equivalent)
+- Green Compose UI tests
+- The spec they wrote with their designer pair
+
+Don't try to merge their code with the Next.js starter — they run in parallel. The designer serves both (one Figma library, token values ported to both CSS and Kotlin).
+
+iOS developers: no pre-built path this time. Invite them to pair on either web or Android. The spec + handoff pattern ports.
 
 ## Project structure
 
