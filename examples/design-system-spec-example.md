@@ -26,6 +26,7 @@
 
 | Component | Variants | States | Priority |
 |---|---|---|---|
+| Navbar | default | default, active-link | P0 |
 | Button | primary, secondary, ghost, danger, icon | default, hover, focus, disabled, loading | P0 |
 | Input | text, textarea | default, focus, error, disabled | P0 |
 | Avatar | sm, md, lg, xl | with-status, without-status | P0 |
@@ -45,6 +46,7 @@
 
 | Component | Hover | Click | Focus | Error | Success |
 |---|---|---|---|---|---|
+| Navbar link | Underline / subtle bg | Navigate | Ring outline | — | Active state (filled bg) |
 | Button | Lighten bg, cursor pointer | Execute action, show loading if async | Ring outline | Shake + red variant | Checkmark flash |
 | ProfileCard | Subtle lift (translateY -2px), border glow | Navigate to profile detail | Ring outline | — | — |
 | SkillBadge | Slight scale (1.05) | Toggle filter (directory) or remove (form) | Ring outline | — | — |

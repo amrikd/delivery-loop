@@ -38,6 +38,7 @@
 
 | Route | Purpose | Main Components | Flow |
 |---|---|---|---|
+| (all routes) | Persistent chrome | Navbar | — |
 | `/` | Dashboard | StatCard, ProfileCard, Button | Flow 4 |
 | `/create` | Multi-step form | Input, StepIndicator, SkillBadge, ProjectTag, Button | Flow 1 |
 | `/directory` | Browse | SearchInput, FilterChip, ProfileCard, Toggle, EmptyState | Flow 2 |
@@ -74,8 +75,9 @@
 
 ## 6. Navigation
 
-- Next.js `<Link>` for all internal routes, active state styling via `usePathname`
-- Top nav: Dashboard / Directory / Create Profile (sticky)
+- Next.js `<Link>` for all internal routes. The Navbar composable handles active state via `usePathname`
+- Navbar is rendered in `app/layout.tsx` — same instance on every route
+- Navbar items: Dashboard / Directory / Create Profile (sticky top)
 - Back: profile detail → "Back to directory" link (preserves filter query params)
 - Deep links: `/directory?skill=React` is shareable and survives refresh
 - 404: unknown profile id → EmptyState with "Back to directory"
