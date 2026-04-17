@@ -55,8 +55,10 @@ npm run dev        # localhost:3000 — app
 ### Core docs
 
 - **`WRITING-SPECS.md`** — how the 3-tier spec model works (core lesson)
+- **`AGENT-LEVELS.md`** — 5 levels of agentic adoption. Plot where your team is and where you're going.
 - **`DESIGN-WITH-CLAUDE.md`** — Figma MCP patterns for designers
 - **`DESIGNER-QUICKSTART.md`** — short plain-language guide for designers
+- **`MOBILE.md`** — Android developer path (Compose + Copilot)
 - **`examples/`** — worked Team Profile Builder across all 3 specs
 
 ### Rules
